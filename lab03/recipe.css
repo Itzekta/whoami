@@ -1,0 +1,39 @@
+body {
+  background-image: url('images/simple-grain-cereal.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+}
+p {
+	line-height: 2em;
+	text-transform: capitalize;
+}
+h1 {
+  color: navy;
+  margin-left: 20px;
+  font-size: 200%;
+  text-decoration: underline;
+  border: 8px solid #00FF00;
+}
+h2 {
+  color: darkslategray;
+  font-style: italic;
+  margin: inherit;
+  }
+h3 {
+  color: navy;
+  background-position: left;
+}
+li {
+	font-weight: bolder;
+  color: seagreen;
+  height: auto; 
+}
+img {
+    padding: 25px;
+    border-radius: 70px;
+    border-style: dashed;
+    height: 400px;
+    width: 400px;
+    box-shadow: 3px 4px 5px 6px #00FF00;
+}       
