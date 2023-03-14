@@ -1,0 +1,80 @@
+*{
+  font-family: "Trirong",sans-serif;
+}
+body {
+  background-color: #FFD580;
+}
+.header {
+  width: 98%;
+  border: 10px solid #00FF00;
+  background-color: black;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  border: 10px solid #00FF00;
+  background-color: antiquewhite;
+}
+.ing {
+  border: 10px solid #00FF00;
+  background-color: black;
+  width: 50%;
+}
+.image_state {
+  width: 50%;
+  float: right;
+  background-image: url('images/simple-grain-cereal.jpg');
+  background-size: cover;
+  margin-bottom: 75px;
+  border: 10px solid #00FF00;
+}
+.ins {
+  border: 10px solid #00FF00;
+  background-color: black;
+  width: 98%;
+}
+.pg {
+  border: 10px solid #00FF00;
+  background-color: black;
+  width: 98%;
+}
+
+p {
+  line-height: 2em;
+  text-transform: capitalize;
+  color: navajowhite;
+  font-size: 12px;
+}
+h1 {
+  text-align: center;
+  color: #FFD580;
+  font-size: 230%;
+  text-decoration: underline;
+  background-color: black;
+}
+h2 {
+  color: maroon;
+  font-style: italic;
+  margin: inherit;
+  font-size: 135%;
+  }
+h3 {
+  color: skyblue;
+  background-position: left;
+}
+ li {
+  font-weight: bolder;
+  color: seagreen;
+  height: auto; 
+}
+img {
+    padding: 25px;
+    border-radius: 70px;
+    height: 190px;
+    width: 190px;
+    box-shadow: 3px 4px 5px 6px #00FF00;
+}    
+a {
+  color: skyblue;
+}   
