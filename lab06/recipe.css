@@ -95,7 +95,7 @@ img {
     border-radius: 70px;
     height: 190px;
     width: 190px;
-    box-shadow: 3px 4px 5px 6px #00FF00;
+    flex: wrap;
 }    
 a {
   color: skyblue;
