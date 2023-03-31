@@ -1,0 +1,109 @@
+*{
+  font-family: "Trirong",sans-serif;
+}
+
+body {
+  background-color: #FFD580;
+}
+@media screen and (max-width: 768px) {
+    body {
+      background-color: black;
+      font-size: 1rem;
+    }
+    p {
+      text-align: center;
+      text-decoration: overline pink;
+    }
+    .ins {
+    border: 10px solid #00FF00;
+    background-color: black;
+    width:  100%;
+    }
+    .ing {
+    border: 10px solid #00FF00;
+    background-color: black;
+    width: 100%;
+    }
+
+}
+    .pg {
+        border-radius: 20px;
+        box-shadow: 10px 10px lightpink;
+    }
+
+.header {
+  width: 98%;
+  border: 10px solid #00FF00;
+  background-color: black;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  border: 10px solid #00FF00;
+  background-color: #00FF00;
+}
+.ing {
+  border: 10px solid #00FF00;
+  background-color: black;
+  width: 50%;
+  float: right;
+  flex-wrap: wrap;
+}
+.image_state {
+  width: 95%;
+  background-image: url('images/simple-grain-cereal.jpg');
+  border: 10px solid #00FF00;
+}
+.ins {
+  border: 10px solid #00FF00;
+  background-color: black;
+  width: 50%;
+}
+.pg {
+  border: 10px solid #00FF00;
+  background-color: black;
+  width: 98%;
+}
+
+p {
+  line-height: 2em;
+  text-transform: capitalize;
+  color: navajowhite;
+}
+h1 {
+  text-align: center;
+  color: #FFD580;
+  font-size: 230%;
+  text-decoration: underline;
+  background-color: black;
+}
+h2 {
+  color: maroon;
+  font-style: italic;
+  margin: inherit;
+  font-size: 135%;
+  background-image: url('images/simple-grain-cereal.jpg');
+  background-size: cover;
+  }
+h3 {
+  color: skyblue;
+  background-position: left;
+}
+ li {
+  font-weight: bolder;
+  color: seagreen;
+  height: auto; 
+}
+  
+ img {
+    padding: 20px;
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+    flex-wrap: wrap;
+} 
+ 
+a {
+  color: skyblue;
+}   
