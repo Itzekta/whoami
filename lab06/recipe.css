@@ -19,6 +19,12 @@ body {
       display: flex;
       flex-direction: column;
     }
+    .ing {
+      width: 98%;
+    }
+    .ins {
+      width: 98%;
+    }
 }
     .pg {
         border-radius: 20px;
@@ -42,7 +48,6 @@ body {
   background-color: black;
   width: 50%;
   float: right;
-  flex-wrap: wrap;
 }
 .image_state {
   width: 95%;
