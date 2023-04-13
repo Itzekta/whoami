@@ -1,0 +1,187 @@
+*{
+  font-family: "Trirong",sans-serif;
+}
+
+body {
+  background-color: saddlebrown;
+}
+    .pg {
+        border-radius: 20px;
+        box-shadow: 10px 10px lightpink;
+    }
+
+.header {
+  width: 98%;
+  border: 10px solid #00FF00;
+  background-color: black;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  border: 10px solid #00FF00;
+  background-color: #00FF00;
+}
+.ing {
+  border: 10px solid #00FF00;
+  background-color: black;
+  width: 50%;
+  float: right;
+}
+.image_state {
+  width: 95%;
+  background-image: url('images/simple-grain-cereal.jpg');
+  border: 10px solid #00FF00;
+}
+.ins {
+  border: 10px solid #00FF00;
+  background-color: black;
+  width: 50%;
+}
+.pg {
+  border: 10px solid #00FF00;
+  background-color: black;
+  width: 98%;
+}
+
+p {
+  line-height: 2em;
+  text-transform: capitalize;
+  color: navajowhite;
+}
+h1 {
+  text-align: center;
+  color: #FFD580;
+  font-size: 230%;
+  text-decoration: underline;
+  background-color: black;
+}
+h2 {
+  color: maroon;
+  font-style: italic;
+  margin: inherit;
+  font-size: 135%;
+  background-image: url('images/simple-grain-cereal.jpg');
+  background-size: cover;
+  }
+h3 {
+  color: skyblue;
+  background-position: left;
+}
+ li {
+  font-weight: bolder;
+  color: seagreen;
+  height: auto; 
+}
+  
+ img {
+    padding: 20px;
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+    flex-wrap: wrap;
+} 
+table {
+  border-collapse: collapse;
+  font-size: 15px;
+  background-color: rgba(150, 210, 218, 0.5);
+  table-layout: fixed;
+
+}
+table, td {
+  border: 1px solid #000;
+  padding: 0;
+}
+td {
+  padding: 4px;
+}
+ 
+a {
+  color: skyblue;
+}  
+
+.nutri_facts {
+  background-color: whitesmoke;
+  border: 4px solid black;
+  width: 30%;
+  padding: 1rem;
+  margin: 30px;
+  font-family: serif;
+  width: 18%;
+}
+.nf_title {
+  font-family: verdana;
+  font-size: 20px;
+  font-weight: bolder;
+  border-bottom: 10px solid black;
+  padding: 0 0 0.30rem 0;
+  margin: 0 0 0.6rem 0;
+
+}
+
+.ex2 {
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #04AA6D;
+  color: white;
+}
+
+td {
+    border-bottom: 5px solid black;
+}
+
+b {
+    font-weight: bolder;
+    font-size: 20px;
+}
+thead {
+  border-bottom: 5px solid black;
+}
+.ex1 {
+  font-size: 12px;
+}
+.cal {
+  font-size: 30px;
+  border-bottom: 7px solid black;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #04AA6D;
+  color: white;
+}
+th {
+  text-align: left;
+}
+td {
+    text-align: right;
+  }
+  th, td {
+
+      border-top: solid 1.5px;
+      border-left: none;
+      border-bottom: none;
+    }
+
+
+@media screen and (max-width: 768px) {
+    body {
+      background-color: black;
+      font-size: 1rem;
+    }
+    p {
+      text-align: center;
+      text-decoration: overline pink;
+    }
+    .container
+    {
+      display: flex;
+      flex-direction: column;
+    }
+    .ing , .ins {
+      width: 98%;
+      border-radius: 15px 50px 30px;
+    }
+    .nutri_facts {
+      width: 40%;
+    }
+}
