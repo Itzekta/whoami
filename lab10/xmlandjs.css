@@ -1,0 +1,29 @@
+h1 {
+	text-align: center;
+	border-style: solid;
+	width: 80%;
+	margin: auto;
+
+}
+body {
+	background-color: lightskyblue;
+	color: darkblue;
+}
+div {
+	
+	background-color: lightblue;
+	border-style: solid;
+	border-width: unset;
+	border-color: #FFFFFF;
+	width: 80%;
+	  margin: auto;
+
+}
+h2, p, h3{
+	margin-left: 20px;
+}
+
+li {
+	margin-left: 25px;
+
+}
